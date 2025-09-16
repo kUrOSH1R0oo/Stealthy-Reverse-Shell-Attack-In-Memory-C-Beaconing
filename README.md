@@ -105,8 +105,6 @@ The server aligns with the client's ephemeral model, processing one cmd per conn
 
 ## Proof of Concept (PoC)
 
-Place the GIF demonstrating the attack here (e.g., showing server startup, client execution, command input, and output reception):
-
 ![PoC GIF](https://github.com/kUrOSH1R0oo/Stealthy-Reverse-Shell-Attack-In-Memory-C-Beaconing/blob/main/Proof-of-Concept.gif)
 
 ## Usage Instructions
